@@ -136,8 +136,8 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/BWANDARLOK"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BWANDARLOK")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/intangible_bot_zone"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Intangible_creatoR")
               ]
             ]
           )
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Bots !! @PRADHAN474", cache_time=0, alert=True)
+        await event.answer("Make Your OwnBots !! ", cache_time=0, alert=True)
