@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/BWANDARLOK"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BWANDARLOK")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Intangible_creatoR"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Intangible_creatoR")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/PRADHAN474/ALSPAM")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/itzme_dear")
     ]
 ]
 
@@ -34,13 +34,10 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [🦋⃟ ᴠͥɪͣᴘͫ 🇴 🇽 𝐘 𝐆 𝐄 𝐍⃝⃝⃪⃕🥀(https://t.me/PRADHAN474)**\n\n"
-        TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
-        TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
-        TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
+        TEXT += f"» **ʏᴏᴜʀ ᴅᴀᴅᴅʏ😆 : [ʙʟᴀᴄᴋ](https://t.me/UNKNOWN_CRITERIA_RK)**\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://graph.org/file/ab85bd33dd1ffc3d4dff1.jpg",
+                    "https://telegra.ph/file/00ab5dbe87cd68ab0ef83.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
